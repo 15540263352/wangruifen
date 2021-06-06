@@ -31,6 +31,7 @@ module.exports = {
   "menu.start": "Comienzo",
   "menu.second-menu": "Segundo Menú",
   "menu.second": "Segundo",
+  "menu.third-menu":"Performance Analysis",
   "menu.ui": "IU",
   "menu.charts": "Gráficos",
   "menu.chat": "Chatea",

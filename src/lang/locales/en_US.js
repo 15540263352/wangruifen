@@ -27,10 +27,11 @@ module.exports = {
 
   /* 03.Menu */
   "menu.app": "Home",
-  "menu.dhr": "DHR",
-  "menu.start": "Start",
-  "menu.second-menu": "Second Menu",
-  "menu.second": "Second",
+  "menu.dhr": "Home",
+  "menu.start": "Home",
+  "menu.second-menu": "Individual Performance",
+  "menu.second": "Individual",
+  "menu.third-menu":"Performance Analysis",
   "menu.ui": "UI",
   "menu.charts": "Charts",
   "menu.chat": "Chat",

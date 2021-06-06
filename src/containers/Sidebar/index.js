@@ -280,6 +280,19 @@ class Sidebar extends Component {
                     <IntlMessages id="menu.second-menu" />
                   </NavLink>
                 </NavItem>
+                <NavItem
+                  className={classnames({
+                    active: ((this.state.selectedParentMenu == "second-menu" && this.state.viewingParentMenu=="" )|| this.state.viewingParentMenu=="second-menu")
+                  })}
+                >
+                  <NavLink
+                    to="/app/second-menu"
+                    onClick={e => this.openSubMenu(e, "second-menu")}
+                  >
+                    <i className="iconsmind-Compass-3" />{" "}
+                    <IntlMessages id="menu.third-menu" />
+                  </NavLink>
+                </NavItem>
               </Nav>
             </PerfectScrollbar>
           </div>
