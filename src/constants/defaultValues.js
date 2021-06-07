@@ -8,6 +8,7 @@ export const defaultLocale='en';
 export const localeOptions=[
     {id:'en',name:'English'},
     {id:'es',name:'Español'},
+    {id:'zh',name:'简体中文'},
 ];
 
 export const firebaseConfig = {
