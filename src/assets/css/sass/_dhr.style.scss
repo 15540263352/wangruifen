@@ -42,8 +42,8 @@ Table of Contents
 */
 
 /* 00.Variables and Imports */
-@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700");
-
+// @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700");
+@import url("https://fonts.capgemini.com/css?family=Nunito:300,400,400i,600,700");
 $main-menu-item-height: 110px;
 $main-menu-width: 120px;
 $main-menu-width-lg: 110px;
@@ -75,13 +75,13 @@ $animation-time-short: 200ms;
 
 $border-radius: 0.1rem;
 
-$theme-color-purple: #922c88;
-$theme-color-blue: #145388;
+$theme-color-purple: #4a0dda;
+$theme-color-blue: #0c75ca;
 $theme-color-green: #576a3d;
 $theme-color-orange: #e2863b;
 $theme-color-red: #880a1f;
 
-$info-color: #3195a5;
+$info-color: #5c0ae0;
 $success-color: #3e884f;
 $warning-color: #b69329;
 $error-color: #c43d4b;

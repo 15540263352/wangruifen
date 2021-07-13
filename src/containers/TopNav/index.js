@@ -269,7 +269,9 @@ class TopNav extends Component {
 
         
         <a className="navbar-logo" href="/">
-          <span className="logo d-none d-xs-block" />
+          {/* <span className="logo d-none d-xs-block" /> */}
+          <img src ="/assets/img/Capgemini.png" /> 
+          
           <span className="logo-mobile d-block d-xs-none" />
         </a>
 

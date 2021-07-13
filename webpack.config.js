@@ -133,7 +133,8 @@ module.exports = {
         new HtmlWebPackPlugin({
             template: "./public/index.html",
             filename: "./index.html",
-            favicon: './public/favicon.ico'
+            // favicon: './public/favicon.ico'
+            Capgemini: './public/Capgemini.jpg'
         }),
         new MiniCssExtractPlugin({
             filename: "assets/css/[name].[hash:8].css"

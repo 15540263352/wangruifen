@@ -1,7 +1,10 @@
 // Mixin to prefix several properties at once
+//一次为多个属性添加前缀
 // @author Hugo Giraudel
 // @param {Map} $declarations - Declarations to prefix
+//要添加前缀的声明
 // @param {List} $prefixes (()) - List of prefixes to print
+//要打印前缀的列表
 @mixin prefix($declarations, $prefixes: ()) {
   @each $property, $value in $declarations {
     @each $prefix in $prefixes {
